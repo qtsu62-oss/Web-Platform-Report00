@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استضافة المواقع والدومينات</title>
+</head>
+<body>
+
+    <h1>استضافة المواقع والدومينات: إزاي المواقع بتشتغل وبيكون ليها عنوان على الإنترنت؟</h1>
+    <p>اسم الطالب: إسلام محمد الشحات أحمد</p>
+    <p>الرقم الجامعي: 2502137</p>
+    <p>المقرر: تطبيقات الإنترنت والمنصات الإلكترونية</p>
+
+    <h2>المقدمة</h2>
+    <p>كل موقع بنفتحه على الإنترنت لازم يكون متخزن على جهاز متصل بالإنترنت على طول، واسمه <strong>السيرفر</strong>. وكمان لازم يكون له عنوان نكتبه في المتصفح عشان نوصله. في البحث ده هشرح فكرة <strong>الاستضافة</strong> و<strong>الدومين</strong> وإزاي الاتنين بيشتغلوا مع بعض.</p>
+
+    <h2>عرض الموضوع</h2>
+
+    <h3>أولاً: الاستضافة (Web Hosting)</h3>
+    <p>الاستضافة هي خدمة بتأجرلك مساحة على سيرفر عشان تحط عليها ملفات موقعك (صفحات HTML والصور والملفات التانية). الشركة المسؤولة عن الاستضافة بتخلي السيرفر شغال طول اليوم عشان أي حد يقدر يفتح الموقع في أي وقت.</p>
+
+    <h3>ثانياً: الدومين (Domain Name)</h3>
+    <p>الدومين هو الاسم اللي بنكتبه في المتصفح، زي <b>example.com</b>. السيرفر في الحقيقة له عنوان رقمي اسمه <strong>IP</strong>، والدومين بيسهّل علينا نفتكر الموقع بدل ما نحفظ أرقام.</p>
+
+    <h3>ثالثاً: نظام DNS</h3>
+    <p>نظام <strong>DNS</strong> شبه دليل التليفونات. لما بنكتب اسم الموقع، المتصفح بيسأل DNS عن عنوان الـ IP الخاص بالدومين، وبعد كده بيتصل بالسيرفر ويطلب منه الصفحة.</p>
+
+    <img width="500" src="hosting.svg" alt="رسم يوضح خطوات وصول المستخدم للموقع: المتصفح ثم DNS ثم السيرفر">
+
+    <h3>خطوات فتح موقع</h3>
+    <p>1) المستخدم يكتب اسم الموقع في المتصفح. 2) المتصفح يسأل DNS عن عنوان الـ IP. 3) المتصفح يتصل بالسيرفر. 4) السيرفر يرجّع الصفحة ويظهرها للمستخدم.</p>
+
+    <h3>مقارنة بين الاستضافة والدومين</h3>
+    <table border="1">
+        <tr>
+            <th>وجه المقارنة</th>
+            <th>الاستضافة</th>
+            <th>الدومين</th>
+        </tr>
+        <tr>
+            <td>التعريف</td>
+            <td>مساحة على سيرفر لتخزين ملفات الموقع</td>
+            <td>اسم الموقع اللي بنكتبه في المتصفح</td>
+        </tr>
+        <tr>
+            <td>مثال</td>
+            <td>سيرفر عليه ملفات الموقع</td>
+            <td>example.com</td>
+        </tr>
+        <tr>
+            <td>الغرض</td>
+            <td>تشغيل الموقع وإتاحته طول الوقت</td>
+            <td>تسهيل الوصول للموقع</td>
+        </tr>
+        <tr>
+            <td>التجديد</td>
+            <td>اشتراك شهري أو سنوي</td>
+            <td>تجديد سنوي</td>
+        </tr>
+    </table>
+
+    <h2>المراجع</h2>
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name" target="_blank">MDN Web Docs: What is a domain name?</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server" target="_blank">MDN Web Docs: What is a web server?</a></li>
+        <li><a href="https://www.cloudflare.com/learning/dns/what-is-dns/" target="_blank">Cloudflare: What is DNS?</a></li>
+        <li><a href="https://www.cloudflare.com/learning/hosting/what-is-web-hosting/" target="_blank">Cloudflare: What is web hosting?</a></li>
+    </ul>
+
+</body>
+</html>
